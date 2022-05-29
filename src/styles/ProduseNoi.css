@@ -1,0 +1,28 @@
+.produse-wrapper{
+  background-color: #fffdfa;;
+}
+.produse-wrapper h2{
+    font-size: 30px;
+    text-align: center;
+}
+.produse-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom:80px;
+}
+.produse-container img{
+width:300px; height:180px;
+border-radius:10px !important;
+margin:30px;
+cursor:pointer;
+}
+.hide-p
+{
+  display: none;
+}
+@media only screen and (max-width:1100px) {
+  .hide-p{
+    display: block;
+  }
+}

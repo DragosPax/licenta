@@ -1,0 +1,115 @@
+.head {
+    height: 230px;
+    opacity: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40px;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+    
+  }
+  .head h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 70px;
+    color: white;
+  }
+  .desert-wrapper{
+      background-color:#fffdfa ;
+  }
+  .desert-list {
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #fffdfa;
+      
+    }
+    
+    .desert-list {
+      width: 80vw;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      place-items: center;
+      margin: auto;
+    }
+    
+    .desert-item {
+      border-radius: 15px;
+      width: 300px;
+      height: 350px;
+      margin: 20px;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    }
+    .desert-item:hover {
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+      transition: 0.3s ease-in;
+      cursor: pointer;
+    }
+    
+    .desert-item div {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .desert-item h1{
+        text-align:center;
+        margin:5px;
+        padding:0px;
+        font-size: 30px;
+        
+    }
+  
+    .desert-item p {
+     margin:0px;
+     margin-left:2%;
+     margin-bottom:5%;
+     color:gray;
+      
+    }
+    .desert-item button{
+        background-color: #D21F3C;
+          padding:10px 30px;
+          color:white;
+          border-radius:10px;
+          font-weight: bold;
+          cursor:pointer;
+          margin: 0 auto;
+          display: block;
+          
+    }
+    .desert-item button:hover {
+      background-color: #07090a;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+    }
+    
+    
+    @media only screen and (max-width: 1300px) {
+      .desert-list {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+    @media only screen and (max-width: 1000px) {
+      .desert-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    
+    @media only screen and (max-width: 800px) {
+      .desert-list {
+        grid-template-columns: 1fr;
+      }
+    }
+  
