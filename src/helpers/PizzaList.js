@@ -26,7 +26,7 @@ export const PizzaList=[
 
         {
             image:Traditionala,
-            name:"Pizza Clasica",
+            name:"Pizza Traditionala",
             description:"ardei gras, cascaval vegetal, ceapă rosie, ciuperci, porumb, sos, aluat, 700/1000 g",
             price:31.99
         },

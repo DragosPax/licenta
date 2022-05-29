@@ -7,8 +7,17 @@ import "../styles/Footer.css";
 
 function Footer() {
   function abonare() {
-    const email = document.getElementById("email");
-    console.log(email.value); //PERSISTARE LOCAL STORAGE
+    const email = document.getElementById("email").value;
+    console.log(email);
+     //PERSISTARE LOCAL STORAGE
+    let emails
+    if(localStorage.getItem('emails')===null)
+    emails=[];
+    else 
+    emails=JSON.parse(localStorage.getItem('emails'))
+    emails.push(email)
+    localStorage.setItem('emails',JSON.stringify(emails))
+
     document.getElementById("email").value = "V-ati abonat cu succes!";
   }
 

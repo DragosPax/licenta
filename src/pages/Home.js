@@ -2,14 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Homepage from "../assets/homepage.jpg";
 import ProduseNoi from "../components/ProduseNoi";
-import CookieConsent from "react-cookie-consent";
 import Cookie from '../components/Cookie'
+import Search from '../components/Search'
+import ProductsData from '../ProductsData.json'
 
 import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
+      <Search placeholder='Cautati in meniu...' data={ProductsData}/>
       <div
         className="header-container"
         style={{ backgroundImage: `url(${Homepage})` }}

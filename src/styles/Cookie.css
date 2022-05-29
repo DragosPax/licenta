@@ -65,3 +65,49 @@
 .hidden{
       display: none;
   }
+
+  @media only screen and (max-width:990px)
+  
+  {
+      .cookie{
+          width: 80%;
+      }
+      .cookie h4{
+          margin:0px;padding:0px;
+      }
+  }
+  @media only screen and (max-width:700px)
+  
+  {
+      .cookie{
+          width: 95%;
+      }
+      .cookie h4{
+          margin:0px;padding:0px;
+      }
+      .cookie p{
+          margin-top:0px;
+      }
+      .cookie{
+          height:220px;
+      }
+  }
+  @media only screen and (max-width:320px)
+  
+  {
+      .cookie{
+          width: 95%;
+      }
+      .cookie h4{
+          margin:0px;padding:0px;
+      }
+      .cookie p{
+          margin-top:0px;
+      }
+      .cookie{
+          height:250px;
+      }
+      .cookie h5{
+          right:10%;
+      }
+  }

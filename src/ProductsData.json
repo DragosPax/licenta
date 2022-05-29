@@ -1,0 +1,254 @@
+[
+    {
+      "category":"pizza",
+      "title": "Pizza Clasica",
+      "link": "./pizza"
+      
+    },
+    {
+        "category":"pizza",
+        "title": "Pizza Pui",
+        "link": "./pizza"
+        
+      },
+      {
+        "category":"pizza",
+        "title": "Pizza Traditionala",
+        "link": "./pizza"
+        
+      },
+      {
+        "category":"pizza",
+        "title": "Pizza Vegetariana",
+        "link": "./pizza"
+        
+      },
+      {
+        "category":"pizza",
+        "title": "Pizza Capriciosa",
+        "link": "./pizza"
+        
+      },
+      {
+        "category":"pizza",
+        "title": "Pizza Quatro",
+        "link": "./pizza"
+        
+      },
+      {
+        "category":"pizza",
+        "title": "Pizza Italia",
+        "link": "./pizza"
+        
+      },
+      {
+        "category":"pizza",
+        "title": "Pizza Cheese",
+        "link": "./pizza"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Paste Arabica",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Pizza cu Pui",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Paste cu Creveti",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Paste la cuptor",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Paste Napoli",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Paste Bolognese",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Paste Carbonara",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"paste",
+        "title": "Paste cu Ton",
+        "link": "./paste"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Fish Burger",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Turkey Burger",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Vegetarian Burger",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Meniu Clasic Burger",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Meniu Crispy Burger",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Burger Traditional",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Burger Special",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"burger",
+        "title": "Burger Cheese",
+        "link": "./burgeri"
+        
+      },
+      {
+        "category":"desert",
+        "title": "Clatite speciale",
+        "link": "./desert"
+        
+      },
+      {
+        "category":"desert",
+        "title": "Clatite cu ciocolata",
+        "link": "./desert"
+        
+      },
+    
+      {
+        "category":"desert",
+        "title": "Clatite cu dulceata",
+        "link": "./desert"
+        
+      },
+    
+      {
+        "category":"desert",
+        "title": "Clatite la cuptor",
+        "link": "./desert"
+        
+      },
+    
+      {
+        "category":"desert",
+        "title": "Diplomat buchet",
+        "link": "./desert"
+        
+      },
+    
+      {
+        "category":"desert",
+        "title": "Tiramisu",
+        "link": "./desert"
+        
+      },
+    
+      {
+        "category":"desert",
+        "title": "Prajitura cu iaurt",
+        "link": "./desert"
+        
+      },
+    
+      {
+        "category":"desert",
+        "title": "Prajitura asortata",
+        "link": "./desert"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Apa plata",
+        "link": "./bauturi"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Pepsi Max",
+        "link": "./bauturi"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Limonada",
+        "link": "./bauturi"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Red Bull",
+        "link": "./bauturi"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Bere Tuborg",
+        "link": "./bauturi"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Vin rosu Cotnari",
+        "link": "./bauturi"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Jagermeister",
+        "link": "./bauturi"
+        
+      },
+      {
+        "category":"bauturi",
+        "title": "Jack Daniels",
+        "link": "./bauturi"
+        
+      }
+    
+    
+     
+    
+    
+
+  ]

@@ -1,11 +1,34 @@
-import React from 'react'
-import Main from '../assets/despre.jpg'
+import React,{useState} from 'react'
+import poza1 from '../assets/despre1.jpg'
+import poza2 from '../assets/despre2.jpg'
+import poza3 from '../assets/despre3.jpg'
 import '../styles/Despre.css'
+import ArrowLeft from '../assets/arrow-left.svg'
+import ArrowRight from '../assets/arrow-right.svg'
+
 
 function Despre() {
+  function goLeft(){
+    if(poza>0)setPoza(poza-1)
+    else (setPoza(2))
+  }
+  function goRight(){
+    if(poza<2)setPoza(poza+1)
+    else setPoza(0)
+  } 
+
+  const poze=[poza1,poza2,poza3];
+  const [poza,setPoza]=useState(0)
+
   return (
     <div className='despre'>
-        <div className='despre-top' style={{backgroundImage:`url(${Main})`}}></div>
+        <div className='despre-top' style={{backgroundImage:`url(${poze[poza]})`}}>
+          <img src={ArrowLeft} className='arrow' alt='arrow' style={{left:'6%',
+          borderRadius:'20px 0px 0px 20px'}} onClick={goLeft}/>
+          <img src={ArrowRight} className='arrow' alt='arrow' style={{right:'6%',
+          borderRadius:'0px 20px 20px 0px'}} onClick={goRight}/>
+
+        </div>
         <div className='despre-bottom'>
             <h1>DESPRE NOI</h1>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Restaurantul nostru este o poveste despre arome și pasiune, despre gustul perfect și arta gătitului,
