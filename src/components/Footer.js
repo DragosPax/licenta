@@ -1,7 +1,6 @@
-import { Block, DocumentScannerTwoTone } from "@mui/icons-material";
+
 import React from "react";
-import Logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
+import LogoWhite from "../assets/logo_white.png";
 
 import "../styles/Footer.css";
 
@@ -24,7 +23,7 @@ function Footer() {
   return (
     <div className="footer">
       <img
-        src={Logo}
+        src={LogoWhite}
         alt="logo"
         className="logo"
         onClick={() => {

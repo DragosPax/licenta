@@ -1,26 +1,24 @@
 import React from "react";
-import "../styles/Bauturi.css";
+// import "../styles/Bauturi.css";
 import Main from "../assets/bauturi/main.jpg";
 import { BauturiList } from "../helpers/BauturiList";
 import BauturiItem from "../components/BauturiItem";
 
 
-function Bauturi() {
+function Bauturi({onAdd}) {
   return (
-    <div className="bauturi-wrapper">
+    <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
         <h1>BAUTURI</h1>
       </div>
 
-      <div className="bauturi-list">
+      <div className="product-list">
         {BauturiList.map((bauturiItem, key) => {
           return (
             <BauturiItem
               key={key}
-              image={bauturiItem.image}
-              name={bauturiItem.name}
-              description={bauturiItem.description}
-              price={bauturiItem.price}
+              bauturiItem={bauturiItem}
+							onAdd={onAdd}
             />
           );
         })}

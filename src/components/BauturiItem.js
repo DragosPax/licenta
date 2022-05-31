@@ -1,14 +1,9 @@
 import React from 'react'
+import ProductItem from './ProductItem'
 
-function BauturiItem({image,name,description,price}) {
+function BauturiItem({bauturiItem}) {
   return (
-    <div className='bauturi-item'>
-            <div style={{backgroundImage:`url(${image})`}}></div>
-            <h1>{name}</h1>
-            <p>{description}</p>
-            <button>{price} lei</button>
-
-    </div>
+    <ProductItem items={bauturiItem} />
   )
 }
 

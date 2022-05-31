@@ -16,6 +16,11 @@ width:300px; height:180px;
 border-radius:10px !important;
 margin:30px;
 cursor:pointer;
+transition:all ease 0.3s;
+transform:scale(1);
+}
+.produse-container img:hover{
+  transform:scale(1.2)
 }
 .hide-p
 {

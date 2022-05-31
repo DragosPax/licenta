@@ -11,13 +11,14 @@ import Cheese from '../assets/pizza/8.jpg'
 
 export const PizzaList=[
 
-        {
+        {   id:1,
             image:Clasica,
             name:"Pizza Clasica",
             description:"ardei gras, ciuperci, măsline 50g, piept de pui, porumb, mozzarella, sos, aluat, 800/1200 g",
             price:35.99
         },
         {
+            id:2,
             image:Pui,
             name:"Pizza Pui",
             description:"piept de pui, mozzarella, sos, roșii bruschette, aluat, măsline kalamata, 800/1200 g",
@@ -25,6 +26,7 @@ export const PizzaList=[
         },
 
         {
+            id:3,
             image:Traditionala,
             name:"Pizza Traditionala",
             description:"ardei gras, cascaval vegetal, ceapă rosie, ciuperci, porumb, sos, aluat, 700/1000 g",
@@ -32,6 +34,7 @@ export const PizzaList=[
         },
 
         {
+            id:4,
             image:Vegetariana,
             name:"Pizza Vegetariana",
             description:"mozarella, broccoli, branza cu mucegai, sos, ardei copţi, brie, aluat, 750/1050 g",
@@ -39,6 +42,7 @@ export const PizzaList=[
         },
 
         {
+            id:5,
             image:Capriciosa,
             name:"Pizza Capriciosa",
             description:"mozarella, lămâie, ton, sos, ardei copţi, aluat, măsline kalamata, 800/1250 g",
@@ -46,6 +50,7 @@ export const PizzaList=[
         },
 
         {
+            id:6,
             image:Quatro,
             name:"Pizza Quatro",
             description:"ciuperci, salam vară, sunca de porc, mozzarella, sos, aluat, 750/1050 g",
@@ -53,6 +58,7 @@ export const PizzaList=[
         },
 
         {
+            id:7,
             image:Italia,
             name:"Pizza Italia",
             description:"ardei gras, piept de pui, salam demisec, mozzarella, măsline kalamata, 800/1200 g",
@@ -60,6 +66,7 @@ export const PizzaList=[
         },
 
         {
+            id:8,
             image:Cheese,
             name:"Pizza Cheese",
             description:"brânză burduf, ceapă rosie, kaizer, mozzarella, sos, aluat, 800/1170 g",

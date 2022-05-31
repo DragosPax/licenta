@@ -1,26 +1,24 @@
 import React from "react";
-import "../styles/Burgeri.css";
+// import "../styles/Burgeri.css";
 import Main from "../assets/burgeri/main.jpg";
 import { BurgeriList } from "../helpers/BurgeriList";
 import BurgeriItem from "../components/BurgeriItem";
 
 
-function Burgeri() {
+function Burgeri({onAdd}) {
   return (
-    <div className="burgeri-wrapper">
+    <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
         <h1>BURGERI</h1>
       </div>
 
-      <div className="burgeri-list">
+      <div className="product-list">
         {BurgeriList.map((burgeriItem, key) => {
           return (
             <BurgeriItem
               key={key}
-              image={burgeriItem.image}
-              name={burgeriItem.name}
-              description={burgeriItem.description}
-              price={burgeriItem.price}
+              burgeriItem={burgeriItem}
+							onAdd={onAdd}
             />
           );
         })}

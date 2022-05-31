@@ -1,21 +1,19 @@
 import React, { useState } from "react";
 import "../styles/Cookie.css";
 
-function Cookie() {
+function Cookie({setOpenCookie}) {
+
+
+  
   let cookieAccept = () => {
     localStorage.setItem("cookieOn", "true");
     document.querySelector(".cookie-background").style.display = "none";
+    setOpenCookie(false)
   };
 
   let cookieX = () => {
     document.querySelector(".cookie-background").style.display = "none";
   };
-
-  //   if (localStorage.getItem("cookieOn")==='true') {
-
-  //       document.querySelector(".cookie-background").style.display = "none";
-
-  //   }
 
   return (
     <div>

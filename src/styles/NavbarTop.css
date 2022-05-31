@@ -4,16 +4,11 @@
   width: 25px;
   height: 25px;
 }
-.left-side {
-  width: 150px;
-  height: 100px;
-}
 
 .top-nav {
   display: flex;
   height: 40px;
   background-color: #D21F3C;
-
   justify-content: flex-end;
   align-items: center;
 }
@@ -28,6 +23,7 @@
 }
 .phone {
   padding: 0px 30px;
+  
 }
 .phone img {
   position: relative;

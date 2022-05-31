@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import User from "../assets/user.png";
 import Cart from "../assets/cart.svg";
-import { useNavigate } from "react-router-dom";
+
 import Modal from "../components/Modal";
 
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 
-function Navbar() {
-  // const navigate = useNavigate();
+function Navbar(props) {
+  
   const [openModal, setOpenModal] = useState(false);
+  
 
   return (
     <div className="navbar-wrapper">
@@ -47,10 +48,10 @@ function Navbar() {
             </p>
           </div>
           
-          <div className="cart">
+          <div className="cart"  onClick={() => props.setShowBasket(true)}>
             <img src={Cart} alt="cart" className="cart-image" />
             <p className="cart-p">Cosul tau</p>
-            <p className="cart-number">0</p>
+            <p className="cart-number">{props.countCartItems ? props.countCartItems : 0}</p>
           </div>
         </div>
       </div>

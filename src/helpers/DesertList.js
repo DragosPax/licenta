@@ -11,55 +11,55 @@ import Prajiturac from '../assets/desert/8.jpg'
 
 export const DesertList=[
 
-        {
+        {   id:25,
             image:Clatites,
             name:"Clatite speciale",
             description:"banane, frișcă, vişine, clătite, zahăr, ciocolată albă",
             price:13.99
         },
-        {
+        {   id:26,
             image:Clatitec,
             name:"Clatite cu ciocolata",
             description:"banane, foi clatite, crema nociola callebaut",
             price:19.99
         },
 
-        {
+        {   id:27,
             image:Clatited,
             name:"Clatite cu dulceata",
             description:"dulceaţă, foi clatite",
             price:17.99
         },
 
-        {
+        {   id:28,
             image:Clatitecu,
             name:"Clatite la cuptor",
             description:"brânză vaci, smântână, stafide, clătite, zahăr vanilat",
             price:13.99
         },
 
-        {
+        {   id:29,
             image:Diplomat,
             name:"Diplomat buchet",
             description:"frișcă, cremă de ciocolată, fructe de pădure, paiete de ciocolată neagră",
             price:11.99
         },
 
-        {
+        {   id:30,
             image:Tiramisu,
             name:"Tiramisu",
             description:"cafea, cacao, blat de pișcoturi, cremă de mascarpone cu amaretto",
             price:16.99
         },
 
-        {
+        {   id:31,
             image:Prajiturai,
             name:"Prajitura cu iaurt",
             description:"frișcă, iaurt, blat de vanilie, ciocolată albă, zmeura",
             price:15.99
         },
 
-        {
+        {   id:32,
             image:Prajiturac,
             name:"Prajitura asortata",
             description:"ciocolată albă, ciocolată neagră, ciocolată de lapte, blat de cacao",

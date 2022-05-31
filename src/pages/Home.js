@@ -1,4 +1,4 @@
-import React from "react";
+import Reactm,{useState} from "react";
 import { Link } from "react-router-dom";
 import Homepage from "../assets/homepage.jpg";
 import ProduseNoi from "../components/ProduseNoi";
@@ -9,6 +9,9 @@ import ProductsData from '../ProductsData.json'
 import "../styles/Home.css";
 
 function Home() {
+
+  const [openCookie,setOpenCookie]= useState(true)
+
   return (
     <div className="home">
       <Search placeholder='Cautati in meniu...' data={ProductsData}/>
@@ -26,7 +29,7 @@ function Home() {
       </div>
       <ProduseNoi />
     
-      <Cookie/>
+       { openCookie &&  <Cookie setOpenCookie={setOpenCookie}/>}
     </div>
   );
 }

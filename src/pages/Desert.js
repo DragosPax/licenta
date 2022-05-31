@@ -1,26 +1,24 @@
 import React from "react";
-import "../styles/Desert.css";
+// import "../styles/Desert.css";
 import Main from "../assets/desert/main.jpg";
 import { DesertList } from "../helpers/DesertList";
 import DesertItem from "../components/DesertItem";
 
 
-function Desert() {
+function Desert({onAdd}) {
   return (
-    <div className="desert-wrapper">
+    <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
         <h1>DESERT</h1>
       </div>
 
-      <div className="desert-list">
+      <div className="product-list">
         {DesertList.map((desertItem, key) => {
           return (
             <DesertItem
               key={key}
-              image={desertItem.image}
-              name={desertItem.name}
-              description={desertItem.description}
-              price={desertItem.price}
+              desertItem={desertItem}
+							onAdd={onAdd}
             />
           );
         })}

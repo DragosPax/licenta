@@ -12,11 +12,24 @@
 }
 .left-side {
   cursor: pointer;
+    width: 150px;
+    height: 100px;
+
+  
 }
+.left-side:hover {
+  cursor: pointer;
+  background-color: #fffdfa;
+  border: none;
+}
+
 .right-side {
   display: flex;
   align-items: center;
   
+}
+.link:hover{
+  border-radius: 10px;
 }
 
 .center-side * {

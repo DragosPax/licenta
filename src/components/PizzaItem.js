@@ -1,17 +1,17 @@
 import React from 'react'
+import ProductItem from './ProductItem'
 
-function PizzaItem({image,name,description,price}) {
-  function pop(){
-    
-  }
+function PizzaItem({pizzaItem}) {
+  
   return (
-    <div className='pizza-item'>
-            <div style={{backgroundImage:`url(${image})`}}></div>
-            <h1>{name}</h1>
-            <p>{description}</p>
-            <button onClick={pop}>{price} lei</button>
+    <ProductItem items={pizzaItem} />
+    // <div className='pizza-item'>
+    //         <div style={{backgroundImage:`url(${image})`}}></div>
+    //         <h1>{name}</h1>
+    //         <p>{description}</p>
+    //         <button onClick={pop}>{price} lei</button>
 
-    </div>
+    // </div>
   )
 }
 
