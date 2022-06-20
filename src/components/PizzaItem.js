@@ -1,10 +1,10 @@
 import React from 'react'
 import ProductItem from './ProductItem'
 
-function PizzaItem({pizzaItem}) {
+function PizzaItem({pizzaItem,onAdd}) {
   
   return (
-    <ProductItem items={pizzaItem} />
+    <ProductItem items={pizzaItem} onAdd={onAdd} />
     // <div className='pizza-item'>
     //         <div style={{backgroundImage:`url(${image})`}}></div>
     //         <h1>{name}</h1>

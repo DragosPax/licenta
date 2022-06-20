@@ -27,10 +27,7 @@ function Pizza({onAdd}) {
           );
         })}
       </div>
-        {/* PRODUS ADAUGAT!
-      <div className="pop-up">
-        <p>Produs adaugat !</p>
-      </div> */}
+       
     </div>
   );
 }

@@ -11,6 +11,13 @@
     z-index: 11;
     padding: 20px 30px;
     box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+   
+  }
+  .basket span {
+    padding:1px 5px;
+    border:2px solid black;
+    border-radius:20px;
+    cursor:pointer;
   }
   .item-add {
     display: flex;
@@ -24,7 +31,18 @@
     display: inline-block;
     border: 1px solid #999;
     width: 20px;
+    cursor: pointer;
   }
   .item-add .qty {
     margin-left: auto;
+  }
+
+  .finalizeaza{
+    padding: 10px;
+    display: block;
+    margin:10% auto;
+    color: white;
+    background-color: #d1411e;
+    cursor: pointer;
+
   }

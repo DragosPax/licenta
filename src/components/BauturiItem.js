@@ -1,9 +1,9 @@
 import React from 'react'
 import ProductItem from './ProductItem'
 
-function BauturiItem({bauturiItem}) {
+function BauturiItem({bauturiItem,onAdd}) {
   return (
-    <ProductItem items={bauturiItem} />
+    <ProductItem items={bauturiItem} onAdd={onAdd} />
   )
 }
 

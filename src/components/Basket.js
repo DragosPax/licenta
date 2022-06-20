@@ -32,10 +32,11 @@ export default function Basket(props) {
 			{cartItems.length !== 0 && (
 				<>
 					<hr></hr>
-					<div>Transport : {transport} lei</div>
-					<div>
-						<b>Total: {total} lei</b>
+					<div style={{marginBottom:'20px',marginTop:'20px',float:'right'}}>Transport : {transport} lei</div>
+					<div style={{marginBottom:'20px',marginTop:'100px',textAlign:'center'}}>
+						<b >Total: {total.toFixed(2)} lei</b>
 					</div>
+					<button className='finalizeaza'>Finalizare comanda!</button>
 				</>
 			)}
 		</div>

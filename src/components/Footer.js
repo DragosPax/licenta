@@ -1,10 +1,12 @@
 
-import React from "react";
+import React,{useState} from "react";
 import LogoWhite from "../assets/logo_white.png";
+import Cookie from './Cookie'
 
 import "../styles/Footer.css";
 
 function Footer() {
+  const [openCookie,setOpenCookie]= useState(true)
   function abonare() {
     const email = document.getElementById("email").value;
     console.log(email);
@@ -21,6 +23,7 @@ function Footer() {
   }
 
   return (
+    <>
     <div className="footer">
       <img
         src={LogoWhite}
@@ -47,7 +50,9 @@ function Footer() {
         </button>
       </div>
     </div>
-  );
+     { openCookie &&  <Cookie setOpenCookie={setOpenCookie}/>}
+  </>);
+  
 }
 
 export default Footer;
