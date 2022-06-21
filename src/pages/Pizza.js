@@ -5,7 +5,7 @@ import { PizzaList } from "../helpers/PizzaList";
 import PizzaItem from "../components/PizzaItem";
 
 
-function Pizza({onAdd}) {
+function Pizza() {
   return (
     <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
@@ -22,7 +22,7 @@ function Pizza({onAdd}) {
               // description={pizzaItem.description}
               // price={pizzaItem.price}
               pizzaItem={pizzaItem}
-							onAdd={onAdd}
+							
             />
           );
         })}

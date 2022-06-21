@@ -5,7 +5,7 @@ import { PasteList } from "../helpers/PasteList";
 import PasteItem from "../components/PasteItem";
 
 
-function Paste({onAdd}) {
+function Paste() {
   return (
     <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
@@ -18,7 +18,7 @@ function Paste({onAdd}) {
             <PasteItem
               key={key}
               pasteItem={pasteItem}
-							onAdd={onAdd}
+					
             />
           );
         })}

@@ -7,10 +7,17 @@ import Modal from "../components/Modal";
 
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import { useSelector } from 'react-redux';
 
-function Navbar(props) {
+function Navbar({setShowBasket}) {
   
   const [openModal, setOpenModal] = useState(false);
+  const productAdded = useSelector((state) => state.productAdded); //il aduc din redux
+	let totalAdded = 0;
+	productAdded.map((item) => {
+		totalAdded += item.qty;
+	});
+
   
 
   return (
@@ -48,10 +55,10 @@ function Navbar(props) {
             </p>
           </div>
           
-          <div className="cart"  onClick={() => props.setShowBasket(true)}>
+          <div className="cart"  onClick={() => setShowBasket(true)}>
             <img src={Cart} alt="cart" className="cart-image" />
             <p className="cart-p">Cosul tau</p>
-            <p className="cart-number">{props.countCartItems ? props.countCartItems : 0}</p>
+            <p className="cart-number">{totalAdded}</p>
           </div>
         </div>
       </div>

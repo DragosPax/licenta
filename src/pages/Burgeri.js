@@ -5,7 +5,7 @@ import { BurgeriList } from "../helpers/BurgeriList";
 import BurgeriItem from "../components/BurgeriItem";
 
 
-function Burgeri({onAdd}) {
+function Burgeri() {
   return (
     <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
@@ -18,7 +18,7 @@ function Burgeri({onAdd}) {
             <BurgeriItem
               key={key}
               burgeriItem={burgeriItem}
-							onAdd={onAdd}
+							
             />
           );
         })}

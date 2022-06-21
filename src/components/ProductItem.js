@@ -1,12 +1,17 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { addProductToCart } from '../actions/cart';
 
-export default function ProductItem({ onAdd, items }) {
+export default function ProductItem(props) {
+	const { item } = props;
+	const dispatch = useDispatch(); //asa se apeleaza functiile din Redux
+
 	return (
 		<div className='product-item'>
-			<div style={{ backgroundImage: `url(${items.image})` }}></div>
-			<h1>{items.name}</h1>
-			<p>{items.description}</p>
-			<button onClick={() => onAdd(items)}>{items.price} lei</button>
+			<div style={{ backgroundImage: `url(${item.image})` }}></div>
+			<h1>{item.name}</h1>
+			<p>{item.description}</p>
+			<button onClick={() => dispatch(addProductToCart(item))}>{item.price} lei</button>
 		</div>
 	);
 }

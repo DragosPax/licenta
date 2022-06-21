@@ -5,7 +5,7 @@ import { DesertList } from "../helpers/DesertList";
 import DesertItem from "../components/DesertItem";
 
 
-function Desert({onAdd}) {
+function Desert() {
   return (
     <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
@@ -18,7 +18,7 @@ function Desert({onAdd}) {
             <DesertItem
               key={key}
               desertItem={desertItem}
-							onAdd={onAdd}
+						
             />
           );
         })}

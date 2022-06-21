@@ -1,9 +1,9 @@
 import React from 'react'
 import ProductItem from './ProductItem'
 
-function DesertItem({desertItem,onAdd}) {
+function DesertItem({desertItem}) {
   return (
-    <ProductItem items={desertItem} onAdd={onAdd}/>
+    <ProductItem item={desertItem}/>
   )
 }
 

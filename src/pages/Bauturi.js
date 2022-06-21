@@ -5,7 +5,7 @@ import { BauturiList } from "../helpers/BauturiList";
 import BauturiItem from "../components/BauturiItem";
 
 
-function Bauturi({onAdd}) {
+function Bauturi() {
   return (
     <div className="product-wrapper">
       <div className="head" style={{ backgroundImage: `url(${Main})` }}>
@@ -18,7 +18,7 @@ function Bauturi({onAdd}) {
             <BauturiItem
               key={key}
               bauturiItem={bauturiItem}
-							onAdd={onAdd}
+						
             />
           );
         })}
