@@ -38,8 +38,8 @@ function App() {
         <Categories />
 
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/licenta" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/homepage" element={<Home />} />
           <Route path="/pizza" element={<Pizza />} />
           <Route path="/paste" element={<Paste/>} />
